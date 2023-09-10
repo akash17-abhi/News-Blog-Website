@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="main-nav container flex">
+            <a href="#" onclick="reload()" class="company-logo">
+                <img src="freelation.png" alt="company logo">
+            </a>
+            <div class="nav-links">
+                <ul class="flex">
+                    <li class="hover-link nav-item" id="Sports" onclick="onNavItemClick('Sports')">Sports</li>
+                    <li class="hover-link nav-item" id="finance" onclick="onNavItemClick('finance')">Finance</li>
+                    <li class="hover-link nav-item" id="politics" onclick="onNavItemClick('politics')">Politics</li>
+                    <li class="hover-link nav-item" id="Share Market" onclick="onNavItemClick('Share Market')">Share Market</li>
+                    <li class="hover-link nav-item" id="Entertainment" onclick="onNavItemClick('Entertainment')">Entertainment</li>
+                    <li class="hover-link nav-item" id="Latest News" onclick="onNavItemClick('Latest News')">Latest News</li>
+                </ul>
+            </div>
+            <div class="search-bar flex">
+                <input id="search-text" type="text" class="news-input" placeholder="search here">
+                <button id="search-button" class="search-button">Search</button>
+            </div>
+        </div>
+    </nav>
+    
+
+    <main>
+        <div class="cards-container container flex" id="cards-container">
+            
+        </div>
+    </main>
+
+    <template id="template-news-card">
+        <div class="card">
+            <div class="card-header">
+                <img src="https://via.placeholder.com/400x200" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">This is the Title</h3>
+                <h6 class="news-source" id="news-source">End Gadget 26/08/2023</h6>
+                <p class="news-desc" id="news-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae saepe quis voluptatum quisquam vitae doloremque facilis molestias quae ratione cumque!</p>
+            </div>
+        </div>
+    </template>
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>footer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <footer>
+
+        <div class="foot-panel1">
+             <ul>
+                <p>Categories</p>
+                 <a>Mobile Phones</a>
+                 <a>Laptops</a>
+                 <a>Tablets</a>
+                 <a>Earphones</a>
+                 <a>Smart Watches</a>
+                 <a>Deals</a>
+             </ul>
+             <ul>
+                <p>Get to know Us</p>
+                 <a>About Freelation</a>
+                 <a>Contact Us</a>
+                 <a>Give us Feedback</a>
+                 <a>Help</a>
+                 <a>Advertise</a>
+             </ul>
+             <ul>
+                <p>Follow Us</p>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+             </ul>
+        </div>
+       
+        <div class="foot-panel2">
+            <div class="copyright">
+             Copyright © 2023, Freelation.com. All Rights Reserved
+            </div>
+        </div>
+
+    </footer>
+</body>
+</html>
+
+    <script src="js.js"></script>
+</body>
+</html> 
